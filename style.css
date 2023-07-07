@@ -1535,6 +1535,9 @@ transform: translateX(-15px);
     
   }
   .right-main-section{
+    width: 95% !important;
+    margin-left: 25px !important;
+
   }
   .right-main-section p{
     font-size: 15px !important;
@@ -1634,7 +1637,7 @@ transform: translateX(-15px);
     padding: 8px;
   }
   .subscribe{
-    left: 10%;
+    left: 17%;
     width: 280px !important;
     width: 330px;
     overflow: hidden;
