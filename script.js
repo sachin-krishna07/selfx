@@ -90,7 +90,7 @@ ScrollReveal().reveal('.service-right-box',{origin:'right'})
 ScrollReveal({
   reset:false,
   distance:'50px',
-  duration:3000,
+  duration:2000,
   delay:10
   
 });
@@ -111,7 +111,8 @@ ScrollReveal().reveal('.project1, .blog-1,.project2, .blog-2,.project3,.blog-3, 
 
 let message_disable=document.querySelector(".message-cross"),
 subscribeBox=document.querySelector(".subscribe"),
-subscribeBTN=document.querySelector(".subscribe_btn");
+subscribeBTN=document.querySelector(".subscribe_btn"),
+email_button=document.querySelector(".email_button");
 
 subscribeBTN.onclick=()=>{
   subscribeBox.classList.remove("hide");
@@ -122,6 +123,6 @@ message_disable.onclick=()=>{
   subscribeBox.classList.remove("subs-style");
   subscribeBox.classList.add("hide");
 
-  clearTimeout();
 }
-  
+
+
