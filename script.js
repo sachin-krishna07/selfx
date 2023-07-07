@@ -124,7 +124,4 @@ message_disable.onclick=()=>{
 
   clearTimeout();
 }
-   setTimeout(() => {
-     subscribeBox.classList.remove("hide");
-     subscribeBox.classList.add("subs-style");
-   }, 25000);
+  
